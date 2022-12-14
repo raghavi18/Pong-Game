@@ -128,7 +128,7 @@ while condition==True:
         ball.setx(-340)
         ball.dx *= -1
        
-     time.sleep(0.002)
+    time.sleep(0.002)
   
        
        
