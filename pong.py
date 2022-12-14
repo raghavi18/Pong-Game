@@ -1,5 +1,6 @@
 import turtle
 import os 
+import time
  
 wn = turtle. Screen()
 wn.title("Pong by Raghavi")
@@ -126,6 +127,11 @@ while condition==True:
     if (ball.xcor() < -340 and ball.xcor() > -350) and (ball.ycor()< paddle_a.ycor() + 40 and ball.ycor() > paddle_a.ycor() -40):
         ball.setx(-340)
         ball.dx *= -1
+       
+     time.sleep(0.002)
+  
+       
+       
 
    
 
